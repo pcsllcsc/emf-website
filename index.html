@@ -402,10 +402,11 @@ footer{background:#0f1113;border-top:1px solid var(--line);padding:3rem 0 2rem}
         <a href="mailto:emfcontractingsc@gmail.com" class="btn btn-primary" style="margin-top:.5rem">Send Message &nbsp;→</a>
       </div>
 
-      <form class="reveal" action="https://formsubmit.co/emfcontractingsc@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New Quote Request - EMF Contracting Website">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
+      <form class="reveal" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="4903172c-5283-4c32-9ef7-646de2283e31">
+        <input type="hidden" name="subject" value="New Quote Request - EMF Contracting Website">
+        <input type="hidden" name="from_name" value="EMF Contracting Website">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
         <div class="field"><label>Name</label><input type="text" name="name" placeholder="Your name" required></div>
         <div class="field"><label>Company</label><input type="text" name="company" placeholder="Company name"></div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
