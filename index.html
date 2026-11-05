@@ -106,7 +106,8 @@ section{position:relative}
 
 /* ---------- Services ---------- */
 .services{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.4rem}
+.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem;max-width:900px;margin:0 auto}
+@media(max-width:640px){.svc-grid{grid-template-columns:1fr}}
 .card{background:var(--bg-3);border:1px solid var(--line);border-radius:var(--r);padding:2.2rem;
   transition:.3s ease;position:relative;overflow:hidden}
 .card::before{content:"";position:absolute;top:0;left:0;height:3px;width:100%;
